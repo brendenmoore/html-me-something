@@ -2,6 +2,7 @@ body {
     max-width: 800px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: auto;
+    background-color: antiquewhite;
 }
 
 h1 {
@@ -32,4 +33,17 @@ p {
 footer p {
     text-align: center;
     font-size: small;
+}
+
+#intro {
+    font-size: 25px;
+    color: gray;
+}
+
+.rotate_img_left {
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    transform: rotate(-12deg);
 }
