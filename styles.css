@@ -109,7 +109,7 @@ p {
 .section_left .content {
     grid-column: 6 / 12;
     grid-row: 2;
-    min-height: 300px;
+    min-height: 100vh;
 }
 
 .section_right img {
@@ -127,7 +127,7 @@ p {
 .section_right .content {
     grid-column: 1 / 5;
     grid-row: 2 / 4;
-    min-height: 300px;
+    min-height: 100vh;
 }
 
 .section_center img {
