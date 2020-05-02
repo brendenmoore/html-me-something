@@ -2,19 +2,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: auto;
     background-color: slategrey;
-}
-
-h2 {
-    font-size: 35px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-p {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-size: 20px;
+    color: white;
 }
 
 footer p {
@@ -74,3 +62,64 @@ h1 {
     grid-column: 1 / 4;
     color: white;
 }
+
+section {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    margin: 75px;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+
+.left_img {
+    grid-column: 1 / 6;
+    grid-row: 1 / 4;
+}
+
+h2 {
+    font-size: 70px;
+    text-align: center;
+    background-color: thistle;
+    color: white;
+    padding: .25em;
+}
+
+.right_header {
+    grid-column: 5 / 12;
+    grid-row: 1;
+    text-align: left;
+}
+
+p {
+    padding: 1em;
+    font-size: 1.25em;
+}
+
+.right_content {
+    grid-column: 6 / 12;
+}
+
+#p1 {
+    grid-column: 6 / 12;
+    max-width: 500px;
+}
+
+#packing_list {
+    grid-column: 6 / 11;
+    font-size: 1.25em;
+    padding: 1em;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#p2 {
+    grid-column: 1 / 12;
+    max-width: 700px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    section {
+        margin-left: 0;
+        margin-right: 0;
+        background-color: unset;
+    }
